@@ -1,0 +1,9 @@
+This is my attempt to create a workflow involving LLM's. The goal is to provide a library for myself (or others)
+to automate scheduling for personal, academic, and professional use cases with Motion. It can take a lot of work to maintain a 
+schedule or agenda and I wanted to leverage recent AI advances to make the process feel less tedious.
+
+Every course and professor provides a syllabus with all relevant course information. The problem is that these generally come in a variety of formats making
+a traditional workflow for automation difficult. With LLM's we can simplify this process by allowing an AI agent to extract text
+and make decisions about what to do with that data. By getting an agent to break down schedules into a standard JSON format, we 
+can then use this JSON to interact with the Motion REST API. Motion provides a flexible and automated scheduling service that 
+will intelligently schedule any extracted tasks. 
